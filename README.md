@@ -3,7 +3,7 @@
 
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/691289/216745596-b58c7538-1d53-482a-9d8d-33dccc80c115.jpeg">
 
-# 設定方式
+# 設定方式 (一次性前置作業)
 - 註冊一個Line的開發者帳號 (免費)
    https://developers.line.biz/console/
 - 創立一個channel, 名字隨意
@@ -15,6 +15,22 @@
 - 選 "Messaging API", 然後創一個 "Channel access token", 記錄一下不要跟人分享
 <img width="585" alt="image" src="https://user-images.githubusercontent.com/691289/216746237-ccebd59d-8e87-49e2-8d10-4c03d6d38974.png">
 
+# 執行方式 1 (使用exe, 不需要安裝額外的東西,直接可以用)
+1. 下載 https://github.com/sunnyp1227/lineagem-line/raw/main/line-notify.exe 和 https://github.com/sunnyp1227/lineagem-line/blob/main/line-notify-config.txt
+2. 將這個exe和config.txt放進你的資料夾的log裡面
+3. 更改config.txt,將至少第一跟第二行換成你自己的
+
+```
+line-notify-config.txt有四行
+
+改成您的channel_access_token
+改成您的_channel_userID
+1 #您想要收到通知的log, 目前只支援一個,多開不支援
+10 #刷新頻率(秒), 避免被揍的時候連續收到通知
+
+```
+
+# 執行方式 2 (自行安裝python, pip, SDK)
 - 安裝python, pip, 還有Line的SDK
 https://www.python.org/downloads/
 ```
