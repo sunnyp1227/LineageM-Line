@@ -1,0 +1,4 @@
+改成您的channel_access_token
+改成您的_channel_userID
+1
+10
