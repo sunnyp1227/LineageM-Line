@@ -4,8 +4,8 @@
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/691289/216745596-b58c7538-1d53-482a-9d8d-33dccc80c115.jpeg">
 
 # 更新日誌
- v0.1: 單開exe
- v0.2: 支援多開exe
+ - v0.1: 單開exe
+ - v0.2: 支援多開exe
 
 # 設定方式 (一次性前置作業)
 - 註冊一個Line的開發者帳號 (免費)
