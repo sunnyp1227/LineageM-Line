@@ -3,6 +3,10 @@
 
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/691289/216745596-b58c7538-1d53-482a-9d8d-33dccc80c115.jpeg">
 
+# 更新日誌
+ v0.1: 單開exe
+ v0.2: 支援多開exe
+
 # 設定方式 (一次性前置作業)
 - 註冊一個Line的開發者帳號 (免費)
    https://developers.line.biz/console/
@@ -25,7 +29,7 @@ line-notify-config.txt有四行
 
 改成您的channel_access_token
 改成您的_channel_userID
-1 #您想要收到通知的log, 目前只支援一個,多開不支援
+1 #您想要收到通知的log, 如果需要多個log, 請用半形,分開不要有任何空格: ex: 1,2,3
 10 #刷新頻率(秒), 避免被揍的時候連續收到通知
 
 ```
