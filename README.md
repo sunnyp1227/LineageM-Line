@@ -20,9 +20,9 @@
 <img width="585" alt="image" src="https://user-images.githubusercontent.com/691289/216746237-ccebd59d-8e87-49e2-8d10-4c03d6d38974.png">
 
 # 執行方式 1 (使用exe, 不需要安裝額外的東西,直接可以用)
-1. 下載 https://github.com/sunnyp1227/lineagem-line/raw/main/line-notify.exe 和 https://github.com/sunnyp1227/lineagem-line/blob/main/line-notify-config.txt
+1. 下載 https://github.com/sunnyp1227/lineagem-line/raw/main/line-notify.rar
 2. 將這個exe和config.txt放進你的資料夾的log裡面
-3. 更改config.txt,將至少第一跟第二行換成你自己的
+3. 更改config.txt,將至少第一跟第二行換成你自己的在上面申請的
 
 ```
 line-notify-config.txt有四行
